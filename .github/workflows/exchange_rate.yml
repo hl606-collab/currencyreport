@@ -3,7 +3,7 @@ name: Daily Exchange Rate Bot
 on:
   schedule:
 # 미국 동부 시간(EDT) 기준 오전 9시, 낮 12시, 오후 3시 (UTC 13, 16, 19시)
-    - cron: '0 13,16,19 * * *'
+    - cron: '0 13,16,19,22 * * *'
   workflow_dispatch: # 수동 테스트 실행 지원
 
 jobs:
